@@ -1,4 +1,4 @@
-"ContractDetails": [
+{"ContractDetails": [
     {
       "ContractId": 1,
       "UserId": "5ca85fad-2eab-4d01-b4e7-3db65dc87617",
@@ -84,4 +84,5 @@
       "CCEndDate": "2020-01-19T06:44:26.473"
     }
   ]
+}
 }
