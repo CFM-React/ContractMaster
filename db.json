@@ -1,120 +1,1674 @@
 {
-  "ContractDetails": [
-    {
-      "ContractId": 1,
-      "UserId": "5ca85fad-2eab-4d01-b4e7-3db65dc87617",
-      "UserName": "Sanjeev Yadav",
-      "OrganisationName": "Accenture",
-      "ClientName": "CIGNA",
-      "ClientLevelWmu": "CIGNA",
-      "ContractGroupingLevel": [
-        {
-          "ContractGroupingLevel1": "Accenture",
-          "WbsGroup": [
-            {
-              "WbsGroup1": "Claims",
-              "CostCollector": [
-                {
-                  "CostCollectorNbr": "Z008V755",
-                  "CostCollectorName": "Appeals Automation - USA"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ContractGroupingLevel2": "Accenture2",
-          "WbsGroup": [
-            {
-              "WbsGroup1": "Claims",
-              "CostCollector": [
-                {
-                  "CostCollectorNbr": "Z008V780",
-                  "CostCollectorName": "Claims - United Kingdom"
-                }
-              ]
-            }
-          ]
-          
-        }
-      ],
-      "Contracts": "Platinum 0709",
-      "Wbs": "BBXX1001",
-      "CCStartDate": "2020-06-19T06:44:26.473",
-      "CCEndDate": "2021-06-19T06:44:26.473"
-    },
-    {
-      "ContractId": 2,
-      "UserId": "5ca85fad-2eab-4d01-b4e7-3db65dc87617",
-      "UserName": "Sanjeev Yadav",
-      "OrganisationName": "Accenture",
-      "ClientName": "CIGNAA",
-      "ClientLevelWmu": "CIGNAA",
-      "ContractGroupingLevel": [
-        {
-          "ContractGroupingLevel1": "Accenture",
-          "WbsGroup": [
-            {
-              "WbsGroup1": "Claims",
-              "CostCollector": [
-                {
-                  "CostCollectorNbr": "Z011HP78",
-                  "CostCollectorName": "Appeals Automation - Ireland"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "Contracts": "Platinum 0709",
-      "Wbs": "BBXX1001",
-      "CCStartDate": "2021-06-19T06:44:26.473",
-      "CCEndDate": "2022-01-19T06:44:26.473"
-    },
-    {
-      "ContractId": 3,
-      "UserId": "5ca85fad-2eab-4d01-b4e7-3db65dc87617",
-      "UserName": "Sanjeev Yadav",
-      "OrganisationName": "Accenture",
-      "ClientName": "CIGNAAA",
-      "ClientLevelWmu": "CIGNAAA",
-      "ContractGroupingLevel": [
-        {
-          "ContractGroupingLevel1": "Accenture",
-          "WbsGroup": [
-            {
-              "WbsGroup1": "Claims",
-              "CostCollector": [
-                {
-                  "CostCollectorNbr": "Z008V780",
-                  "CostCollectorName": "Claims - United Kingdom"
-                }
-              ]
-            }
-          ]
-          
-        },
-        {
-          "ContractGroupingLevel2": "Accenture2",
-          "WbsGroup": [
-            {
-              "WbsGroup1": "Claims",
-              "CostCollector": [
-                {
-                  "CostCollectorNbr": "Z008V780",
-                  "CostCollectorName": "Claims - United Kingdom"
-                }
-              ]
-            }
-          ]
-          
-        }
-
-      ],
-      "Contracts": "Platinum 0709",
-      "Wbs": "BBXX1001",
-      "CCStartDate": "2018-06-19T06:44:26.473",
-      "CCEndDate": "2020-01-19T06:44:26.473"
-    }
-  ]
+  "ContractDetails":[
+  {    
+    "ClientLevelWmu": "EXELON",
+    "ContractGroupingLevel1": [
+      {
+        "ContractGroupingLevel1Name": "Accenture",
+        "ContractGroupingLevel2": [
+          {
+            "ContractGroupingLevel2Name": "Grid (GRD)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ContractGroupingLevel2Name": "Corporate Services (CS)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]        
+      },
+      {
+        "ContractGroupingLevel1Name": "Avanade",
+        "ContractGroupingLevel2": [
+          {
+            "ContractGroupingLevel2Name": "Grid (GRD)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ContractGroupingLevel2Name": "Energy Consumer (EC)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]    
+  },
+  {
+    "ClientLevelWmu": "CIGNA",
+    "ContractGroupingLevel1": [
+      {
+        "ContractGroupingLevel1Name": "Accenture",
+        "ContractGroupingLevel2": [
+          {
+            "ContractGroupingLevel2Name": "Grid (GRD)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ContractGroupingLevel2Name": "Corporate Services (CS)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ContractGroupingLevel1Name": "Avanade",
+        "ContractGroupingLevel2": [
+          {
+            "ContractGroupingLevel2Name": "Grid (GRD)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ContractGroupingLevel2Name": "Energy Consumer (EC)",
+            "ContractGroupingLevel3": [
+              {
+                "ContractGroupingLevel3Name": "Active Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ContractGroupingLevel3Name": "Strategy Contracts",
+                "Contracts": [
+                  {
+                    "ContractName": "9940308416 - GRD C149 OneMDS",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": true,
+                            "WBSGroup3": [
+                              {
+                                "WBSDesc": "Commercial",
+                                "IsWBSGroup": false
+                              },
+                              {
+                                "WBSDesc": "Implementation",
+                                "IsWBSGroup": false
+                              }
+                            ]
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - CON - Consulting",
+                        "IsWBSGroup": false
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940259847 - GRD EU TOA",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Original Implemen.team",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "Service Delivery - SI - Systems Integration",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  },
+                  {
+                    "ContractName": "9940315960 - CPO 164 Yankowski",
+                    "WBSGroup1": [
+                      {
+                        "WBSDesc": "oneMDS Implementation",
+                        "IsWBSGroup": true,
+                        "WBSGroup2": [
+                          {
+                            "WBSDesc": "CIMS Enhance.",
+                            "IsWBSGroup": false
+                          },
+                          {
+                            "WBSDesc": "Tech Arch Support",
+                            "IsWBSGroup": false
+                          }
+                        ]
+                      },
+                      {
+                        "WBSDesc": "ZACTL",
+                        "IsWBSGroup": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
 }
